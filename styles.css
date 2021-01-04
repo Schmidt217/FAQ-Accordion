@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'kumbh sans';
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding: 20px;
+}
+#container{
+    background-color:white;
+    position: relative;
+    margin: 100px auto;
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+    /* left: 200px;
+    top: 200px; */
+    overflow: hidden;
+    
+    
+}
+#faqContainer{
+    width: 600px;
+    position: relative;
+    left: 400px;
+    margin: 75px 0;
+    padding-top: 0;
+    padding-left: 30px;
+   
+}
+
+
+/* images */
+
+#bg{
+    position: absolute;
+    
+    right: 620px;
+    bottom: -150px;
+}
+
+#box{
+    position: absolute;
+    top: 300px;
+    left: 90px;
+    z-index: 2;
+}
+
+#woman{
+    position: absolute;
+    top: 60px;
+    left: -90px;
+    
+}
+
